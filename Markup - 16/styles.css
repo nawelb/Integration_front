@@ -1,0 +1,115 @@
+body{
+    margin-top: 20%;
+    background-color: #78ACCD;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width:400px;
+    height: 400px; 
+}
+
+
+.calendrier{
+    display: grid;
+    font-weight: 540;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 20px;
+    border-bottom: solid 1px grey;
+    font-size: 14.5px;
+    color: grey;
+}
+.month-year{
+    text-align: end;
+}
+.calendar-detail{
+    display: grid;
+    grid-template:
+    1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-row-gap: 10px;
+    height: 220px;
+    text-align: center;
+    padding: 25px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px grey;
+    font-size: 13.5px;
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+}
+ .day-name, .old-month, .new-month{
+    padding:6px;
+ }
+ .ddate{
+    border-radius: 20px;
+    border:solid 2px;
+    border-color: rgb(255, 123, 0);
+} 
+ .sept{
+    padding: 6px 10px 6px 10px;
+    border-radius: 100px;
+    background-color: rgb(255, 123, 0);
+    color:white;
+ }
+ .grandpa{
+    display: flex;
+    align-items: baseline;
+    justify-content: end;
+ }
+.seize{
+    position: relative;
+}
+ .indice{
+    z-index: 1;
+    position: absolute;
+    font-size: 7px;
+    padding:2px 4px 2px 4px;
+    border-radius: 50%;
+    background-color:  rgb(255, 123, 0);
+    color:white;
+    text-align: justify;
+}
+.day-name{
+    color: grey;
+}
+.old-month{
+    opacity: 0.2;
+}
+.adds{
+    display: grid;
+    grid-gap:5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:20px;
+    font-size:small;
+    font-weight: bold;
+    align-items: center;
+    .hour{
+        text-align:start;
+    }
+    .temperature{
+        text-align: end;
+    }
+}
+button{
+    justify-self: center;
+    border-radius: 20px;
+    border:solid 2px;
+    border-color: rgb(255, 123, 0);
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dixneuf{
+    border-color: blueviolet;
+}
+.indice2{
+    background-color: blueviolet;
+}
